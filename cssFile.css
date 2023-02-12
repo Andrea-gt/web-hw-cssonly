@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-size: 2vh;
+  height: 100vh;
+  background-color: #fcf9f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kiki {
+  position: relative;
+  height: 450px;
+  width: 450px;
+  border-radius: 100%;
+}
+
+.kiki::before,
+.kiki::after {
+  content: "";
+  display: flex;
+  position: relative;
+}
+
+.kiki::before {
+  height: 37.4em;
+  width: 31em;
+  margin: auto;
+  background: radial-gradient(#a72444 50%, transparent 52%) left 30% bottom 27em /
+      4em 5em,
+    linear-gradient(-0.37turn, transparent 50%, #7e1b46 51%) left 40% bottom
+      28em/ 3em 3em,
+    linear-gradient(0.42turn, transparent 50%, #7e1b46 51%) left 60% bottom 28em/
+      4em 2em,
+    linear-gradient(-0.37turn, transparent 50%, #a72444 51%) left 38% bottom
+      27.3em/ 7em 8em,
+    radial-gradient(#a72444 50%, transparent 52%) left 27.8% bottom 25.8em / 2em
+      10.5em,
+    radial-gradient(#a72444 50%, transparent 55%) left 37% bottom 26.8em / 10em
+      1em,
+    linear-gradient(0.39turn, transparent 50%, #8d1e36 51%) left 60% bottom
+      27.1em/ 9em 6.8em,
+    radial-gradient(#8d1e36 50%, transparent 52%) left 74% bottom 26em / 3em
+      9.1em,
+    radial-gradient(#8d1e36 50%, transparent 52%) left 69% bottom 26.3em / 8em
+      3em,
+    radial-gradient(#36211c 50%, transparent 51%) left 38% bottom 13.1em / 6.1em
+      5em,
+    radial-gradient(#cf946f 50%, transparent 56%) left 50.2% bottom 13.8em /
+      2.9em 1em,
+    radial-gradient(circle 5.5em, #36211c 55%, #36211c 100%, transparent 102%)
+      left 0 bottom 3em,
+    radial-gradient(#36211c 50%, transparent 51%) left 59% bottom 11.9em/ 12em 16em,
+    radial-gradient(#36211c 49%, transparent 50%) left 25% bottom 14em / 7em
+      3.4em,
+    linear-gradient(0.32turn, transparent 50%, #36211c 51%) left 24.6% bottom
+      16em/ 5em 5em,
+    linear-gradient(0.29turn, transparent 50%, #36211c 51%) left 27% bottom 18em/
+      5em 5em,
+    linear-gradient(#36211c 50%, #36211c 50%) left 50% bottom 14.3em/ 4em 6em,
+    linear-gradient(#36211c 50%, #36211c 50%) left 40% bottom 15em/ 4em 6em,
+    radial-gradient(#422922 49%, transparent 50%) left 50% bottom 2.5em / 22em
+      6em,
+    radial-gradient(
+        circle 5.7em at 50% 100%,
+        #422922 55%,
+        #422922 100%,
+        transparent 102%
+      )
+      left 0 bottom 7em,
+    conic-gradient(
+        transparent 135deg,
+        #422922 135deg 225deg,
+        transparent 170deg
+      )
+      left 50% bottom 5em/ 15em 15em,
+    linear-gradient(0.35turn, transparent 50%, #36211c 51%) left 26% bottom 16em/
+      5em 6em,
+    linear-gradient(#422922 50%, #422922 50%) left 50% bottom 11em/ 3em 2em,
+    radial-gradient(#cf946f, #cf946f) left 50% bottom 34.6%/ 2em 2em,
+    linear-gradient(0.348turn, transparent 50%, #422922 51%) left 28.5% bottom
+      5em/ 3.1em 7em,
+    linear-gradient(0.35turn, transparent 50%, #422922 53%) left 43% bottom 12em/
+      2em 1em,
+    linear-gradient(-0.35turn, transparent 50%, #422922 54%) left 57% bottom
+      12em/ 2em 1em,
+    linear-gradient(-0.35turn, transparent 50%, #422922 51%) left 71.8% bottom
+      5em/ 3.1em 7em,
+    radial-gradient(
+        circle 5.7em at 50% 47%,
+        #8e1e37 55%,
+        #8e1e37 100%,
+        transparent 102%
+      )
+      left 0 bottom 2.4em,
+    radial-gradient(circle 31em, #dcd8cd 50%, transparent 50%);
+  background-repeat: no-repeat;
+}
