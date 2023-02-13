@@ -14,7 +14,6 @@ body {
 }
 
 .kiki {
-  position: relative;
   height: 450px;
   width: 450px;
   border-radius: 100%;
@@ -24,7 +23,6 @@ body {
 .kiki::after {
   content: "";
   display: flex;
-  position: relative;
 }
 
 .kiki::before {
